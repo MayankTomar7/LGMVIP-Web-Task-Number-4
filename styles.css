@@ -1,0 +1,37 @@
+.calculator {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.screen {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px;
+}
+
+button {
+  padding: 10px;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.number, .operator {
+  background-color: #f0f0f0;
+}
+
+.clear, .calculate {
+  background-color: #ff9800;
+  color: #fff;
+}
